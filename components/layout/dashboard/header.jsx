@@ -57,7 +57,7 @@ const Header = () => {
     <div className="w-full bg-slate-50 shadow-sm flex items-center justify-between p-4 py-5">
       {/* Logo & Header Name */}
       <div className="flex items-center gap-3">
-        <div className="bg-red-100 p-3 rounded-lg flex text-red-900">
+        <div className="bg-blue-100 p-3 rounded-lg flex text-blue-700">
           {headerIcon && <span className="text-xl">{headerIcon}</span>}
         </div>
         <span className="font-semibold text-slate-800">{headerName}</span>

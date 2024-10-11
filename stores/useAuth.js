@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import axiosInstance from '@/libs/axios'; // Adjust the import path
+import axiosInstance from '@/lib/axios'; // Adjust the import path
 import Cookies from 'js-cookie'; // Import js-cookie for managing cookies
 
 const useAuth = create((set) => ({
